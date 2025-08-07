@@ -17,7 +17,7 @@ elif MO == "*":
 
 elif MO == "/":
     if n2 != 0:
-        print(n1/n2)
+        print(n1 / n2)
     else:
         print("division_by_zero")
 
