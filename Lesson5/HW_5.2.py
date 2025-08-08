@@ -25,8 +25,6 @@ while True:
 
     next_calculation = input("Would you like to continue? (yes/no): ")
 
-    if next_calculation == "yes":
-        continue
     if next_calculation == "no":
         break
 
