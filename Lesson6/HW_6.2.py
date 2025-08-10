@@ -1,5 +1,3 @@
-from http.cookiejar import join_header_words
-
 time = int(input("Please enter the time from 0 to 8640000: "))
 
 day = time // 86400
