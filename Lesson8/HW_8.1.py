@@ -1,7 +1,7 @@
 def add_one(some_list):
 
     number = int(''.join(map(str, some_list)))
-    number += 1
+    number = number + 1
 
     return [int(digit) for digit in str(number)]
 
