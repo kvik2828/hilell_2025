@@ -1,4 +1,5 @@
 def second_index(text:str, some_str:str) -> int:
+
     first = text.find(some_str)
     if first == -1:
         return None
