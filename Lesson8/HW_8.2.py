@@ -3,7 +3,7 @@ def is_palindrome(text):
     sentence = ''
     for char in text:
         if char.isalnum():
-            sentence += char.lower()
+            sentence = sentence + char.lower()
 
     reversed_sentence = ''.join(reversed(sentence))
 
