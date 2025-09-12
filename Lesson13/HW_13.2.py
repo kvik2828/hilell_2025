@@ -1,6 +1,6 @@
 class Counter:
 
-    
+
     def __init__(self, current: int = 1, min_value: int = 0, max_value: int = 10):
         self.current = current
         self.min_value = min_value
@@ -65,7 +65,7 @@ assert counter.get_current() == 7, 'Test3'
 try:
     counter.step_down()  # ValueError
 except ValueError as e:
-    print(e)  # Достигнут минимум
+    print(e)  # Достигнут мінімум
 assert counter.get_current() == 7, 'Test4'
 
 print("OK")
